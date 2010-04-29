@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.widget.ImageButton;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
@@ -48,13 +49,13 @@ public class WidgetService extends IntentService {
 
         final boolean isSoundEnabled = silencer.ToggleSilentNotifications();
 
+        if (isSoundEnabled) {
+            updateViews.setImageViewResource(R.id.silentButton, R.drawable.on);
+        }
+        else {
+            updateViews.setImageViewResource(R.id.silentButton, R.drawable.off);
+        }
 
-        handler.post(new Runnable() {
-            public void run()
-            {
-                Toast.makeText(getApplicationContext(), String.format("IsSoundEnabled=%s", isSoundEnabled), Toast.LENGTH_SHORT).show();
-            }
-        });
 
 
 

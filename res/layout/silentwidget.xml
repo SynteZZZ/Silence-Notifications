@@ -10,7 +10,7 @@
     <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/icon"
+            android:src="@drawable/on"
             android:id="@id/silentButton"
             android:scaleType="centerInside"
             android:background="@null"

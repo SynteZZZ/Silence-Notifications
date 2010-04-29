@@ -66,4 +66,18 @@ public class Silencer {
             return true;
         }
     }
+
+    public boolean GetCurrentState() {
+        int origIsTogether = 0;
+                try {
+                    origIsTogether = Settings.System.getInt(context.getContentResolver(), "notifications_use_ring_volume");
+                } catch (Settings.SettingNotFoundException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+
+        if (origIsTogether == 1)
+            return true;
+        else
+            return false;                  
+    }
 }

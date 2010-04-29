@@ -22,6 +22,9 @@ public class SilentNotificationsWidget extends AppWidgetProvider {
         Log.d("fire", "onReceive");
         if (intent.getAction()==null) {
 			context.startService(new Intent(context, WidgetService.class));
+
+
+
 		}
 		else {
 
@@ -62,6 +65,13 @@ public class SilentNotificationsWidget extends AppWidgetProvider {
 
         for (int i=0; i<max; i++ ){
             RemoteViews views=new RemoteViews(context.getPackageName(), R.layout.silentwidget);
+
+            boolean isSoundEnabled =  new Silencer(context).GetCurrentState();
+            if (isSoundEnabled) {
+                views.setImageViewResource(R.id.silentButton, R.drawable.on);
+            } else {
+                views.setImageViewResource(R.id.silentButton, R.drawable.off);    
+            }
             Intent clickintent = new Intent("com.syntezzz.notifications.CLICK");
             PendingIntent pendingIntentClick= PendingIntent.getBroadcast(context,0, clickintent, 0);
             views.setOnClickPendingIntent(R.id.silentButton, pendingIntentClick);

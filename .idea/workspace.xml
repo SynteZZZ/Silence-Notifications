@@ -18,30 +18,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="7a2fabbc-73c3-4c1c-a0c8-dffa3e7427c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/SeekBarPreference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/silentwidget.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/old_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notifications.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/widget.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/syntezzz/notifications/Manifest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/syntezzz/notifications/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/syntezzz/notifications/R.java" afterPath="$PROJECT_DIR$/gen/com/syntezzz/notifications/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/silentwidget.xml" afterPath="$PROJECT_DIR$/res/layout/silentwidget.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java" afterPath="$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$USER_HOME_GRAILS$/" />
     <ignored path="$USER_HOME_GRIFFON$/" />
@@ -115,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SilentNotificationsWidget.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SilentNotificationsWidget.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="46" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.0">
+            <state line="72" column="76" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.69304556">
               <folding />
             </state>
           </provider>
@@ -127,7 +110,7 @@
       <file leaf-file-name="Silencer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="36" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+            <state line="68" column="16" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +121,7 @@
       <file leaf-file-name="WidgetService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="8" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
+            <state line="56" column="40" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,13 +130,13 @@
       <file leaf-file-name="silentwidget.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/silentwidget.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+            <state line="12" column="37" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="on.png" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="on.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/drawable/on.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -172,7 +155,7 @@
       <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen/com/syntezzz/notifications/R.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+            <state line="13" column="32" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,6 +187,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <array>
+        <option value="SynteZZZ &lt;syntezzz@syntezzz.ru&gt;" />
         <option value="SynteZZZ&lt;syntezzz@syntezzz.ru&gt;" />
       </array>
     </option>
@@ -219,12 +203,12 @@
         <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/UpdateService.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java" />
-        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java" />
         <option value="$PROJECT_DIR$/res/xml/widget.xml" />
+        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java" />
         <option value="$PROJECT_DIR$/res/layout/silentwidget.xml" />
+        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java" />
+        <option value="$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java" />
       </list>
     </option>
   </component>
@@ -638,7 +622,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -648,14 +632,14 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.77616745" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3268921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.66022545" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967638" sideWeight="0.7745572" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18446602" sideWeight="0.66183573" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18446602" sideWeight="0.7745572" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2141707" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2141707" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -777,17 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gen/com/syntezzz/notifications/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+        <state line="13" column="32" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,18 +778,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="46" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="8" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/drawable/on.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/widget.xml">
@@ -826,14 +792,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/silentwidget.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+        <state line="12" column="37" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/on.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/WidgetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="40" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/Silencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="16" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/syntezzz/notifications/SilentNotificationsWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="76" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.69304556">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
