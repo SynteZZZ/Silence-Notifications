@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notificationsVolume">Notifications</string>
+    <string name="ringerVolume">Ringer</string>
+    <string name="keepTogether">Keep levels together</string>
+    <string name="test">Test</string>
+    <string name="app_name">Notifications Volume</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <item name="notificationsVolume" type="id"/>
+    <item name="ringerVolume" type="id"/>
+    <item name="keepTogether" type="id"/>
+    <item name="silentNotificationsWidget" type="id"/>
+    <item name="testNotificationSnd" type="id"/>
+    <item name="widgetText" type="id"/>
+    <item name="silentButton" type="id"/>
+</resources>
